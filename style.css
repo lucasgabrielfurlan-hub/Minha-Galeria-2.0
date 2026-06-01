@@ -25,13 +25,19 @@ grid-template-columns:     repeat(auto-fit,minmax(250px,1fr)) ;
 
 
 
-margim: center; /*margagem
+margim: center; /*margagem*/
 
 
 
 }
 
+.imagem img {
+width: 50%;
+max-width: 100px; /* define a algura*/
+height: auto; /*define a altura*/
+justify-self: center;
 
+}
 
 
 
